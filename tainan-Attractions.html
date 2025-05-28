@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>台南景點介紹</title>
+    <style>
+        * {
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffee00;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 30px;
+        }
+
+        .tags {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        .tag {
+            background-color: rgb(2, 255, 255);
+            color: white;
+            padding: 10px 20px;
+            font-size: 1.2em;
+            text-align: center;
+            border: 1px solid  orange;
+            width: 200px;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .card {
+            background-color: white;
+            border: 2px solid rgb(230, 155, 16);
+            width: 48%;
+            display: flex;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+
+        .card img {
+            width: 30%;
+            height: auto;
+            border-right: 2px solid #3498db;
+            border-top: 2px solid #3498db;
+            float: left;
+            margin-right: 20px;
+            margin-bottom: 20px;
+        }
+
+        .card .content {
+            width: 65%;
+        }
+
+        .card h2 {
+            font-size: 1.8em;
+            margin-bottom: 15px;
+            color: #05fc80;
+        }
+
+        .card p {
+            font-size: 1em;
+            line-height: 1.6;
+            color: #2eaf07;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>台南景點介紹</h1>
+
+        <div class="tags">
+            <span class="tag">四草綠色隧道</span>
+            <span class="tag">井仔腳瓦盤鹽田</span>
+            <span class="tag">赤崁樓</span>
+            <span class="tag">台南孔廟</span>
+        </div>
+
+        <div class="row">
+            <div class="card">
+                <img src="下載.jpg" alt="四草綠色隧道" style="border: dotted 3px;">
+                <div class="content">
+                    <h2>四草綠色隧道</h2>
+                    <p>四草綠色隧道在台江國家公園內，裡面有濕地及豐富的生態資源，可以坐船遊覽由紅樹木交織成的綠色隧道、潮間帶的招潮蟹、彈塗魚與紅樹林，體會不一樣的 大自然感受。</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="1024x768 (1).jpg" alt="井仔腳瓦盤鹽田" style="border: double 5px;">
+                <div class="content">
+                    <h2>井仔腳瓦盤鹽田</h2>
+                    <p>井仔腳瓦盤鹽田是北門的第一座鹽田，西元1818年開始曬鹽。因人工成本過高，在2002年停止曬鹽。鹽田漸漸荒廢，目前開發為觀光景點，遊客在此可體驗傳統曬鹽、挑鹽與收鹽。</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="1200px-台南_赤崁樓.jpg" alt="赤崁樓" style="border-style: solid; border-width: medium;">
+                <div class="content">
+                    <h2>赤崁樓</h2>
+                    <p>赤崁樓建於1653年，是荷蘭人所建，最初作為行政和軍事用途。後來成為重要的歷史文化景點，見證了台南的歷史發展。遊客可在此欣賞古蹟建築，了解台南的歷史。</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="下載 (1).jpg" alt="台南孔廟" style="border-style: solid; border-width: thick;">
+                <div class="content">
+                    <h2>台南孔廟</h2>
+                    <p>台南孔廟建於1665年，是台灣最早建立的孔廟，被譽為「全台首學」。這裡擁有豐富的文化與歷史，吸引許多遊客前來參觀學習。</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
